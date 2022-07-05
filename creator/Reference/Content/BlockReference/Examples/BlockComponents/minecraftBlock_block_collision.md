@@ -1,16 +1,16 @@
 ---
 author: JDHeaden
 ms.author: v-jillheaden
-title: Block Documentation - minecraft:block_collision
+title: Block Documentation - minecraft:collision_box
 ms.prod: gaming
 ---
 
-# Block Documentation - minecraft:block_collision
+# Block Documentation - minecraft:collision_box
 
-`minecraft:block_collision` describes the collision of the block with entities and actors. If set to false, it disables the collision of the block with entities. An origin of [-8.0, 0.0, -8.0] with a size of [16, 16, 16] is a unit cube.
+`minecraft:collision_box` describes the collision of the block with entities and actors. If set to false, it disables the collision of the block with entities. An origin of [-8.0, 0.0, -8.0] with a size of [16, 16, 16] is a unit cube.
 
 >[!IMPORTANT]
-> `minecraft:block_collision` requires the Holiday Creator Features experimental toggle to be set to `true` in order to function properly.
+> `minecraft:collision_box` requires the Holiday Creator Features experimental toggle to be set to `true` in order to function properly.
 >
 >Holiday Creator Features contains experimental gameplay features. As with all experiments, you may see additions, removals, and changes in functionality in Minecraft versions without significant advanced warning.
 >
@@ -26,5 +26,5 @@ ms.prod: gaming
 ## Example
 
 ```json
-"minecraft:block_collision": false
+"minecraft:collision_box": false
 ```
